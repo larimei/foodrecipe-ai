@@ -5,7 +5,7 @@ import os
 
 def hello(s):
     print("hello")
-    getRecipe("hamburger")
+    print(getRecipe("hamburger")[0])
 
 title = "Recipifier"
 description = "blablabla"
@@ -51,10 +51,17 @@ def getRecipe(meal):
 
     json_formatted_str = json.dumps(json_object["hits"][0], indent=2) #nur das erste der 20 aus der liste
 
-    print(json_formatted_str)
-    print(json_object)
+    #print(json_formatted_str)
+    #print(json_object)
 
-    return json_object
+    #whole response
+    #return json_object
+
+    #just one result
+    #return json_object["hits"][0]
+
+    #just one result
+    return json_object["hits"][0]["recipe"]["ingredientLines"]
 
 
 demo.launch()
