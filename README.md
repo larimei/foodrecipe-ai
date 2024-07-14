@@ -1,14 +1,3 @@
----
-title: Foodrecipe Ai
-emoji: 🔥
-colorFrom: purple
-colorTo: purple
-sdk: gradio
-sdk_version: 4.25.0
-app_file: app.py
-pinned: false
----
-
 # Recipe Application Based on Food101
 
 This application utilizes image recognition technology to identify food items from images and provides appropriate recipes. It leverages AI and machine learning to offer quick recipe suggestions based on the identified dish, making cooking more accessible and enjoyable.
@@ -54,3 +43,13 @@ Open the provided URL in your web browser to interact with the application. You 
 ## Data and Model
 The application is based on the Food101 dataset, which includes 101,000 images across 101 categories of food. We use deep learning models like ResNet-50, Vision Transformer (ViT), and EfficientNet for image classification.
 
+---
+title: Foodrecipe Ai
+emoji: 🔥
+colorFrom: purple
+colorTo: purple
+sdk: gradio
+sdk_version: 4.25.0
+app_file: app.py
+pinned: false
+---
