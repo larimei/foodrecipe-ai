@@ -16,8 +16,8 @@ To run this application locally, follow these steps:
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/recipe-app.git
-cd recipe-app
+git clone https://github.com/larimei/foodrecipe-ai
+cd foodrecipe-ai
 ```
 
 ### 2. Install Requirements
