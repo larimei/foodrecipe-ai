@@ -40,9 +40,6 @@ Running on local URL:  http://127.0.0.1:7860/
 ```
 Open the provided URL in your web browser to interact with the application. You can upload food images, and the app will identify the dish and provide recipe suggestions.
 
-## Data and Model
-The application is based on the Food101 dataset, which includes 101,000 images across 101 categories of food. We use deep learning models like ResNet-50, Vision Transformer (ViT), and EfficientNet for image classification.
-
 ---
 title: Foodrecipe Ai
 emoji: 🔥
